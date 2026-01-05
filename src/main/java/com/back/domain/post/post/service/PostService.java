@@ -26,7 +26,4 @@ public class PostService {
         return postRepository.findAll();
     }
 
-    public Optional<Post> findById(String id) {
-        return postRepository.findById(id);
-    }
 }
